@@ -1,0 +1,67 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+    float: right !important;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.topimage {
+    background-image: url(mountain1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.inner {
+    position: relative !important;
+    top:50px !important;
+    text-align: center;
+    vertical-align: middle;
+    color: white !important;
+    /*    font-weight: bold;*/
+}
+
+.inner > .head {
+    font-size: 70px;
+    /*      text-shadow: 2px 2px 4px #000000;*/
+    text-shadow: 3px 4px 8px #000;
+
+}
+
+.inner > .subhead {
+    text-shadow: 3px 4px 8px #000;
+    font-size: 30px;
+}
+
+button {
+    transition-duration: 0.25s;
+    border-radius: 20 !important;
+}
+
+.bt_container {
+    font-weight: bold;
+}
+.vd:hover{
+    background-color: #901b90 !important;
+/*    color: aliceblue*/
+/*    outline: none;*/
+}
+.vd2{
+    border-radius: 20 !important;
+    background-color: #901b90 !important;
+}
+.vd2:hover{
+    background-color: rgb(126, 53, 126) !important;
+}
+.wh{
+
+}
+.info{
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.carousel-item > img {
+    width: 100%;
+}
